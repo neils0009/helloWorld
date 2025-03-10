@@ -4,7 +4,7 @@ jobs:
   helloWorld:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: first-step
         run: echo "Hello World"
       - name: second-step
         run: echo " this is from actions"
